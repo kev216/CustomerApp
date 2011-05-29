@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.prime.com.tr/ui">
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>Customer Details</title>
+        <p:resources />
+    </h:head>
+    <h:body>
+        <h2><h:outputText value="Customer Details"/></h2>
+        <h:form>
+            <h:panelGrid columns="2" bgcolor="#eff5fa">
+                <h:outputLabel value="Customer ID:"/>
+                <h:inputText id="customerId" value="#{customer.details.customerId}" disabled="true"/>
+                <h:outputLabel value="Customer Name:"/>
+                <h:inputText id="customerName" value="#{customer.details.name}"/>
+                <h:outputLabel value="Credit Limit:"/>
+                <h:inputText id="creditLimit" value="#{customer.details.creditLimit}"/>
+                <h:outputLabel value="Discount Code"/>
+                <h:selectOneMenu id="discountCode" value="#{customer.details.discount}">
+                    <f:selectItems value="#{customer.discountCodes}"/>
+                </h:selectOneMenu>
+                <h:outputLabel value="Email:"/>
+                <h:inputText id="email" value="#{customer.details.email}"/>
+                <h:outputLabel value="Phone:"/>
+                <h:inputText id="phone" value="#{customer.details.phone}"/>
+                <h:outputLabel value="Fax:"/>
+                <h:inputText id="fax" value="#{customer.details.fax}"/>
+                <h:outputLabel value="Address (Line 1):"/>
+                <h:inputText id="address1" value="#{customer.details.addressline1}"/>
+                <h:outputLabel value="Address (Line 2):"/>
+                <h:inputText id="address2" value="#{customer.details.addressline2}"/>
+                <h:outputLabel value="State:"/>
+                <h:inputText id="state" value="#{customer.details.state}"/>
+                <h:outputLabel value="City:"/>
+                <h:inputText id="city" value="#{customer.details.city}"/>
+                <h:outputLabel value="Zip:"/>
+                <h:inputText id="zip" value="#{customer.details.zip}"/>
+            </h:panelGrid>
+            <h:commandButton id="back" value="Back" action="#{customer.list}"/>
+            <h:commandButton id="update" value="Update" action="#{customer.update}"/>
+        </h:form>
+        <p:messages showDetail="true" />
+    </h:body>
+</html>

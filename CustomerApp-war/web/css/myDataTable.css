@@ -1,0 +1,38 @@
+/* 
+    Document   : myDataTable
+    Created on : Dec 23, 2009, 2:58:24 PM
+    Author     : kl209342
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.yui-skin-sam .yui-dt table { border-color: #99FF00; border-width: thin; font-size: small
+}
+.yui-skin-sam .yui-dt th { font-size: small
+}
+.yui-skin-sam tr.yui-dt-odd { background: #FFFFCC;
+}
+.yui-skin-sam tr.yui-dt-even { background: #FFFFFF;
+}
+.yui-skin-sam .yui-dt td { border-color: #FFFFFF; font-size: small
+}
+.yui-skin-sam .yui-dt-paginator a.yui-pg-last,
+.yui-skin-sam .yui-dt-paginator a.yui-pg-first,
+.yui-skin-sam .yui-dt-paginator a.yui-pg-next,
+.yui-skin-sam .yui-dt-paginator a.yui-pg-previous {
+color: #33CC00; font-size: small
+}
+.yui-skin-sam a.yui-pg-page:link,
+.yui-skin-sam a.yui-pg-page:hover,
+.yui-skin-sam a.yui-pg-page:visited {
+background: #FFFFCC; color: #33CC00; font-size: small
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Project" version="2">
+    <Scope Scope="Faces Configuration Only"/>
+    <Scope Scope="Project">
+        <Node id="CustomerNew.jsp" x="306" y="282" zoom="true"/>
+        <Node id="index.jsp" x="291" y="93" zoom="false"/>
+        <Node id="AccessDenied.jsp" x="329" y="211" zoom="true"/>
+        <Node id="Testing.xhtml" x="150" y="150" zoom="true"/>
+        <Node id="Logout.jsp" x="148" y="176" zoom="true"/>
+        <Node id="CustomerDetails.jsp" x="37" y="285" zoom="true"/>
+        <Node id="CustomerList.xhtml" x="608" y="119" zoom="true"/>
+        <Node id="CustomerDetails.xhtml" x="596" y="259" zoom="true"/>
+        <Node id="LoginError.jsp" x="329" y="176" zoom="true"/>
+        <Node id="CustomerList2.xhtml" x="277" y="373" zoom="true"/>
+        <Node id="CustomerList.jsp" x="44" y="66" zoom="false"/>
+        <Node id="Login.jsp" x="329" y="142" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations"/>
+</Scene>
